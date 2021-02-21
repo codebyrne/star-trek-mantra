@@ -82,7 +82,7 @@ responses += [
     "Commanding a starship is your first, best destiny; anything else is a waste of material.",
     "Were I to invoke logic, logic clearly dictates that the needs of the many outweigh the needs of the few.",
     "So much for the little training cruise!",
-    "I'll chase him 'round the moons of Nibia, and 'round the Antares maelstrom, and 'round perditions flames before I give him up!",
+    "I'll chase him 'round the moons of Nibia, and 'round the Antares maelstrom, and 'round perdition's flames before I give him up!",
     "There are two possibilities... they are unable to respond, they are unwilling to respond.",
     "I was not attempting to evaluate its moral implications, Doctor. As a matter of cosmic history, it has always been easier to destroy than to create.",
     "According to myth, the Earth was created in six days, now watch out, here comes Genesis; we'll do it for you in six minutes!",
@@ -111,7 +111,7 @@ responses += [
 ]
 
 # Print a random response.
-print(responses[randint(0, len(responses))])
+print(responses[randint(0, len(responses) - 1)])
 
 # Test the output of all responses.
 # for i in range(0, len(responses)):
