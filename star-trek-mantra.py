@@ -110,9 +110,35 @@ responses += [
     "Live long and prosper."
 ]
 
+# Star Trek III: The Search for Spock
+responses += [
+    "This time we've paid for the party with our dearest blood.",
+    "Starfleet is up to its brass in a galactic conference. No one has time for those who only stand and wait..",
+    "Spare me your human platitudes, Kirk!",
+    "I must have your thoughts. May I join your mind?",
+    "Don't quote rules to me; I'm talking about loyalty and sacrifice.",
+    "To expect one to order poison in a bar is not logical.",
+    "How can you be deaf with ears like that?",
+    "If I wanted a ride home, would I be trying to charter a space flight?",
+    "Unit two, this is unit one. The Kobayashi Maru has set sail for the promised land.",
+    "A chimpanzee and two trainees could run her.",
+    "What course please, admiral.",
+    "May the wind be at our backs... Stations please.",
+    "Sir, commander, starfleet on an emergency channel. He orders you to surrender this vessel.",
+    "How can you have a yellow alert in space dock?",
+    "Aye sir. The more they overthink the plumbing, the easier it is to stop up the drain.",
+    "Here doctor, souvenirs... from one surgeon to another. I took them out of her main transwarp computer drive.",
+    "Nothing on my scanner, sir.",
+    "May all your guesses be right.",
+    "Turn death into a chance to live.",
+    "Sorry about your crew, but as we say on Earth, \"c'est la vie!\"",
+    "Where's the damn anti-matter inducer?",
+    "I choose the danger. Hell of a time to ask!"
+    ]
+
 # Print a random response.
 print(responses[randint(0, len(responses) - 1)])
 
 # Test the output of all responses.
 # for i in range(0, len(responses)):
-# print(responses[i])
+    # print(responses[i])
