@@ -40,8 +40,6 @@ def generate_response_list():
     # Star Trek: The Motion Picture
     response_list += [
         "We seem to be caught in a tractor beam, Captain!",
-        "Curiosity, Mr. Decker... Insatiable curiosity!",
-        "I would say that was a logical assumption, Captain.",
         "I recommend we proceed, Captain.",
         "I'm afraid our hand is pretty weak, Captain.",
         "Mr. Sulu, you have the Conn.",
@@ -119,7 +117,7 @@ def generate_response_list():
         "If I wanted a ride home, would I be trying to charter a space flight?",
         "Unit two, this is unit one. The Kobayashi Maru has set sail for the promised land.",
         "A chimpanzee and two trainees could run her.",
-        "What course please, admiral.",
+        "What course please, Admiral?",
         "May the wind be at our backs... Stations please.",
         "Sir, Commander, starfleet on an emergency channel. He orders you to surrender this vessel.",
         "How can you have a yellow alert in space dock?",
