@@ -162,14 +162,12 @@ def generate_response_list():
         ]
     return response_list
 
-def print_random_response(responses):
-    ''' Print one random response from the array. '''
-
-    # Print a random response.
-    print(responses[randint(0, len(responses) - 1)])
+def get_random_response(responses):
+    ''' Get one random response from the array. '''
+    return responses[randint(0, len(responses) - 1)]
 
 if __name__ == '__main__':
     try:
-        print_random_response(generate_response_list())
+        print(get_random_response(generate_response_list()))
     except Exception as e:
         print(str(e))
